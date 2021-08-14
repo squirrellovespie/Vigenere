@@ -1,6 +1,6 @@
-#target:dependencies
+#target files:source files
 #<tab>commands
-a:menu.o fun.o
+run:menu.o fun.o
 	gcc menu.o fun.o
 menu.o:menu.c
 	gcc -c menu.c
